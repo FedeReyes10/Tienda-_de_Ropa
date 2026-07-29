@@ -755,17 +755,19 @@ footer hr{
 
 .buscador-inicio input{
 
-    width:100%;
-    max-width:500px;
+    width:90%;
+    max-width:380px;
 
     padding:14px 22px;
 
-    border:2px solid #ddd;
-    border-radius:30px;
+    background:#f5f5f5;
+
+    border:none;
+    border-radius:50px;
 
     font-size:15px;
 
-    outline:none;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
 
     transition:.3s;
 
@@ -773,9 +775,9 @@ footer hr{
 
 .buscador-inicio input:focus{
 
-    border-color:#d97a9c;
+    background:white;
 
-    box-shadow:0 0 15px rgba(217,122,156,.3);
+    box-shadow:0 5px 20px rgba(217,122,156,.25);
 
 }
 
